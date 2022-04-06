@@ -1,0 +1,23 @@
+{
+  "name": "eslint_practices",
+  "version": "1.0.0",
+  "description": "Is a proyect for practices config of eslint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scr/index.js",
+    "dev": "nodemon scr/index.js",
+    "lint": "eslint scr/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
